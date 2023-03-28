@@ -3,8 +3,8 @@ import smtplib
 
 def send_mail(urls):
     # 设置发件人和收件人
-    sender = ${{sender}}
-    recipient = ${{recipient}}
+    sender = '2797037795@qq.com'
+    recipient = 'c15871258342@163.com'
 
     # 配置 SMTP 服务器
     smtp_server = 'smtp.qq.com'
@@ -16,8 +16,8 @@ def send_mail(urls):
     server.starttls()
 
     # 输入发件人邮箱和密码进行登录
-    username = ${{username}}
-    password = ${{password}}
+    username = '2797037795@qq.com'
+    password = 'roimhfkelkrndcde'
     server.login(username, password)
 
     # 发送邮件
