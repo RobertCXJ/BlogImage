@@ -17,4 +17,4 @@ jobs:
       run: |
         python -m pip install --upgrade pip
     - name: Run script
-      run: python send_mail.py
+      run: python send_email.py
