@@ -17,7 +17,7 @@ def send_mail(urls):
 
     # 输入发件人邮箱和密码进行登录
     username = '2797037795@qq.com'
-    password = 'roimhfkelkrndcde'
+    password = password
     server.login(username, password)
 
     # 发送邮件
