@@ -1,6 +1,6 @@
 name: Python workflow
 
-on: [push]
+on: [pull]
 
 jobs:
   build:
